@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+const int DOLLAR = 100; 
 const int QUARTERS =25; 
 const int DIMES =10;
 const int NICKELS=5;
@@ -20,8 +21,8 @@ int main()
     cin >> pennies;
 
     total = QUARTERS * quarters + DIMES * dimes + NICKELS * nickels + pennies;
-    dollar = total / 100;
-    cents = total % 100;
+    dollar = total / DOLLAR;
+    cents = total % DOLLAR;
     cout << "The total is " << dollar << " dollars and "<< cents <<" cents";
     
     return 0;
