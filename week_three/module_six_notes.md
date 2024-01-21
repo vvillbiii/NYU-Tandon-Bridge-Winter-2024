@@ -36,23 +36,23 @@
     - Illustrates how to count digits and sum them using loops.
     - Includes detailed C++ code examples.
 
-    `int num = 12345;
-     int sum, count;
-     int currDigit;
+    `   int num = 12345;
+        int sum, count;
+        int currDigit;
 
-    cout <<"Enter a positve interger: "<< endl;
-    cin>>num;
+        cout <<"Enter a positve interger: "<< endl;
+        cin>>num;
 
-    sum = 0;
-    count = 0;
+        sum = 0;
+        count = 0;
 
-    while (num > 0) {
-     currDigit = number % 10;
-     count++;
-     sum += currDigit;
-     num = num / 10;
-    }
+        while (num > 0) {
+        currDigit = number % 10;
+        count++;
+        sum += currDigit;
+        num = num / 10;
+        }
 
-    cout << num << "has " << count << " digits ";
-    cout << "and their sum is " << sum  << endl;
-`
+        cout << num << "has " << count << " digits ";
+        cout << "and their sum is " << sum  << endl;
+    `
