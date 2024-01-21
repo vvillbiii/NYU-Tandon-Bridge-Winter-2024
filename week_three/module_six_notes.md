@@ -36,7 +36,9 @@
     - Illustrates how to count digits and sum them using loops.
     - Includes detailed C++ code examples.
 
-    `   int num = 12345;
+    `   
+
+        int num = 12345; // example input
         int sum, count;
         int currDigit;
 
