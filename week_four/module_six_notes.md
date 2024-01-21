@@ -65,3 +65,12 @@
         cout << num << "has " << count << " digits ";
         cout << "and their sum is " << sum  << endl;
     `
+
+* Computing the Average
+    - Discusses using loops to calculate the average of a set of numbers.
+    - Covers variations to handle different user input scenarios.
+
+
+* Conclusion
+    - provide a comprehensive understanding of loops.
+    - Focuses on practical implementation and versatility in problem-solving.    
