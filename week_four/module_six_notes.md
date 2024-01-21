@@ -4,12 +4,11 @@
     - Emphasizes the role of loops in enabling repetitive execution and control flow
 
 ### While loops 
-
-##### While Loops
+* While Loops
     - Explains the syntax and semantics of while loops.
     - Demonstrates their application in a counting program.
 
-##### While loop example 
+* While loop example 
     - prints numbers 1 to 5 <br>
     
 `
@@ -23,11 +22,11 @@
 `
 
 ### For loops 
-##### For Loops
+* For Loops
     - Covers syntax and usage, compared with while loops.
     - Application demonstrated in a counting program for contrast.
 
-##### For loop example
+* For loop example
     - prints numbers 1 to 5 <br>
 
 `
@@ -40,7 +39,7 @@
 
 ### Advanced Examples
 
-##### Counting & Summing Digits
+* Counting & Summing Digits
     - Illustrates how to count digits and sum them using loops.
     - Includes detailed C++ code examples.
 
@@ -67,11 +66,12 @@
         cout << "and their sum is " << sum  << endl;
     `
 
-##### Computing the Average
+* Computing the Average
     - Discusses using loops to calculate the average of a set of numbers.
     - Covers variations to handle different user input scenarios.
 
 
-##### Conclusion
+* Conclusion
     - provide a comprehensive understanding of loops.
     - Focuses on practical implementation and versatility in problem-solving.   
+     
