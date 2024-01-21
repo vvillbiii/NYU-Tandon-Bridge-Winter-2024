@@ -10,11 +10,13 @@
 
 * While loop example 
     - prints numbers 1 to 5 <br>
-    `int count = 1;
-    while (count <= 5) {
-    std::cout << count << std::endl;
-    count++;
-}
+    `
+        
+        int count = 1;
+        while (count <= 5) {
+            cout << count << endl;
+            count++;
+        }
 `
 
 ### For loops 
@@ -25,9 +27,12 @@
 * For loop example
     - prints numbers 1 to 5 <br>
 
-`for (int i = 1; i <= 5; i++) {
-    std::cout << i << std::endl;
-}
+`
+    
+    for (int i = 1; i <= 5; i++) {
+        cout << i << endl;
+    }
+
 `
 
 ### Advanced Examples
