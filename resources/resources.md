@@ -10,3 +10,4 @@
 * [Logic and Proof for Teachers](https://faculty.sfasu.edu/judsontw/lpt/html/arguments-section-deductive-reasoning.html)
 * [A Guide to Proof-Writing](https://highered.mheducation.com/sites/dl/free/125967651x/1106131/A_Guide_to_Writing_Proofs.pdf)
 * [Discrete Mathematisc Course](https://www.youtube.com/playlist?list=PLZh9gzIvXQUtB1t57_Xyk3yp9MK2iIFXX)
+* [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
