@@ -20,17 +20,39 @@ int main()
    
     basePrice = firstItem + SecondItem;
 
-    if(firstItem > SecondItem && clubCard){
-        firstItem = firstItem / 2;
-    } else {
-        SecondItem = SecondItem / 2;
-    }
 
+
+    if(clubCard == 'Y' || 'y'){
+    
+        if(firstItem < SecondItem){
+            firstItem = firstItem / 2;
+            
+            discountPrice = basePrice - (basePrice * DISCOUNT) - firstItem;
+        } else {
+            SecondItem = SecondItem / 2;
+            
+            discountPrice = basePrice - (basePrice * DISCOUNT) - SecondItem;
+        }
+
+
+    } else {
+        // this is for if the user puts n
+        if(firstItem < SecondItem ){
+            firstItem = firstItem / 2;
+            discountPrice = basePrice - firstItem;
+        } else {
+            SecondItem = SecondItem / 2;
+            discountPrice = basePrice - SecondItem;
+        }
+    }
+   
+
+    totalPrice = discountPrice + ((taxRate / 100.00) * discountPrice);
  
     
 
     cout << "Base price: "<< basePrice <<endl;
-    cout << "Price after discounts: " <<endl;
-    cout << "Total price: "<<endl;
+    cout << "Price after discounts: " << discountPrice <<endl;
+    cout << "Total price: " << totalPrice <<endl;
     return 0;
 }
