@@ -21,9 +21,6 @@ int main()
     cout<< "How long did the call last in minutes? ";
     cin >> duration;
 
-    // check hour input
-
-    //check day
     if(day == "Su" || day == "Sa"){
         total = duration * WEEKEND;
     } else {
