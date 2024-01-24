@@ -10,6 +10,7 @@ int main()
 {   
   
     int hour, minute, duration;
+    double total;
     string day;
     char temp;
 
@@ -17,12 +18,24 @@ int main()
     cin >> day;
     cout << "What time did the call start? enter in 24-notation ex. (13:30): ";
     cin>> hour>>temp>>minute;
-    cout<<" How long did the call last in minutes? ";
+    cout<< "How long did the call last in minutes? ";
     cin >> duration;
 
     // check hour input
 
     //check day
+    if(day == "Su" || day == "Sa"){
+        total = duration * WEEKEND;
+    } else {
+        if(hour < 8  || hour < 18) {
+            total = duration * AFTERHOURS;
+        } else {
+            total = duration * PEAK;
+        }
+    }
+
+
+    cout << "Your call cost $"<< total <<endl;
   
     return 0;
 }
