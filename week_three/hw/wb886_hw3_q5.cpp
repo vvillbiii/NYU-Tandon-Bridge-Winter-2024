@@ -13,22 +13,24 @@ int main()
    string status;
 
 
-   cout << "Please enter weight (in pounds):" ;
+   cout << "Please enter weight (in pounds): ";
    cin >> weight;
-   cout << "Please enter height (in inches):" ;
+   cout << "Please enter height (in inches): ";
    cin >> height;
 
    kg = weight * KILOGRAMS;
    m = height * METERS;
+
+   bmi = kg / (m * m);
    
-   if(bmi > 18.5)
-        status = "Underweight";
+   if(bmi < 18.5)
+        status = "underweight";
     else if(bmi == 18.5 || bmi < 25) 
-        status = "Normal";
+        status = "normal";
     else if(bmi == 25 || bmi < 30) 
-        status = "Overweight";
+        status = "overweight";
     else if(bmi >= 30 )
-        status = "Obese";
+        status = "obese";
 
 
     cout << "The weight status is: "<< status;
