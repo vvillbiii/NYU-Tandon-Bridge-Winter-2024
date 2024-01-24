@@ -23,16 +23,12 @@ int main()
   
    switch (method) {
     case FLOOR_ROUND:
-        if(realNum < 0){
-            roundNum = realNum * -1;
-        } else {
-            roundNum = realNum;
-        }
+        roundNum = realNum;
         cout << roundNum;
         break;
     case CEILING_ROUND:
         if(realNum < 0){
-            roundNum = realNum * -1 + 1;
+            roundNum = realNum - 1;
         } else {
             roundNum = realNum + 1;
         }
