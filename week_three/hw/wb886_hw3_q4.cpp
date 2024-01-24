@@ -27,11 +27,10 @@ int main()
         cout << roundNum;
         break;
     case CEILING_ROUND:
-        if(realNum < 0){
-            roundNum = realNum - 1;
-        } else {
+        roundNum = realNum;
+        if(realNum > 0)
             roundNum = realNum + 1;
-        }
+        
         cout << roundNum;
         break;
     case ROUND:
