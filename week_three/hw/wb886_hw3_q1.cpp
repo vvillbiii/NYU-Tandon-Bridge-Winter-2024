@@ -49,8 +49,10 @@ int main()
 
     totalPrice = discountPrice + ((taxRate / 100.00) * discountPrice);
  
-    
-
+    //  Magic Formula
+    cout.setf(ios::fixed);
+    cout.setf(ios::showpoint);
+    cout.precision(2);
     cout << "Base price: "<< basePrice <<endl;
     cout << "Price after discounts: " << discountPrice <<endl;
     cout << "Total price: " << totalPrice <<endl;
