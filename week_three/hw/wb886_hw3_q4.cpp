@@ -10,7 +10,7 @@ int main()
     double realNum;
     int method, roundNum;
 
-    cout << "Please eneter a Real number: " <<endl;
+    cout << "Please enter a Real number: " <<endl;
     cin >> realNum;
 
     cout << "Choose your rounding method:\n";
