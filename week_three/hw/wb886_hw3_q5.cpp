@@ -29,7 +29,7 @@ int main()
         status = "normal";
     else if(bmi == 25 || bmi < 30) 
         status = "overweight";
-    else if(bmi >= 30 )
+    else if(bmi >= 30)
         status = "obese";
 
 
