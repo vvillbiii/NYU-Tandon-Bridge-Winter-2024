@@ -22,7 +22,7 @@ int main()
 
 
 
-    if(clubCard == 'Y' || 'y'){
+    if(clubCard == 'Y' || clubCard == 'y'){
     
         if(firstItem < SecondItem){
             firstItem = firstItem / 2;
