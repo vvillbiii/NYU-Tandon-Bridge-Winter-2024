@@ -27,7 +27,7 @@ int main()
     if(day == "Su" || day == "Sa"){
         total = duration * WEEKEND;
     } else {
-        if(hour < 8  || hour < 18) {
+        if(hour < 8  || hour > 18) {
             total = duration * AFTERHOURS;
         } else {
             total = duration * PEAK;
