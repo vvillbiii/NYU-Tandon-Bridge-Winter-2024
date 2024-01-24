@@ -20,23 +20,22 @@ int main()
     cin >> method;
 
 
-  
+    roundNum = realNum;
    switch (method) {
     case FLOOR_ROUND:
-        roundNum = realNum;
+       
         cout << roundNum;
         break;
     case CEILING_ROUND:
-        roundNum = realNum;
         if(realNum > 0)
-            roundNum = realNum + 1;
+            roundNum += 1;
         
         cout << roundNum;
         break;
     case ROUND:
-        roundNum = realNum;
+       
          if(realNum - roundNum > 0.5)
-            roundNum = realNum + 1;
+            roundNum += 1;
         cout << roundNum;
         
         break;
