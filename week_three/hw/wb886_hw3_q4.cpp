@@ -8,7 +8,7 @@ const int ROUND = 3;
 int main()
 {   
     double realNum;
-    int method;
+    int method, roundNum;
 
     cout << "Please eneter a Real number: " <<endl;
     cin >> realNum;
@@ -23,13 +23,27 @@ int main()
   
    switch (method) {
     case FLOOR_ROUND:
-        cout << "Floor round";
+        if(realNum < 0){
+            roundNum = realNum * -1;
+        } else {
+            roundNum = realNum;
+        }
+        cout << roundNum;
         break;
     case CEILING_ROUND:
-        cout << "Ceiling round";
+        if(realNum < 0){
+            roundNum = realNum * -1 + 1;
+        } else {
+            roundNum = realNum + 1;
+        }
+        cout << roundNum;
         break;
     case ROUND:
-        cout << "Round to the nearest whole number";
+        roundNum = realNum;
+         if(realNum - roundNum > 0.5)
+            roundNum = realNum + 1;
+        cout << roundNum;
+        
         break;
 }
     return 0;
