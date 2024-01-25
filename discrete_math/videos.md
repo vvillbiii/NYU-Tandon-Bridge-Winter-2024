@@ -30,7 +30,7 @@
 * [Section 3.3 - Union and Intersection](https://www.youtube.com/watch?v=ExleInzaBTI)
 * [Section 3.4 - More set opetations](https://www.youtube.com/watch?v=01IbHvumHUk)
 * [Section 3.6 - Cartesian Products](https://www.youtube.com/watch?v=gGFUTbwvgtA)
-    * labeled 3.6. Represents content from Section 3.6  
+    * labeled 3.6. Represents content from Section 3.5 
 * [Section 3.5 - Set Identities](https://www.youtube.com/watch?v=-uSJvhUlnb0)
     * labeled 3.5. Represents content from Section 3.6  
 
