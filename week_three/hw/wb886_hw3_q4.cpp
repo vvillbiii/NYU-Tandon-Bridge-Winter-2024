@@ -34,7 +34,7 @@ int main()
         break;
     case ROUND:
        
-         if(realNum - roundNum > 0.5)
+         if(realNum - roundNum >= 0.5)
             roundNum += 1;
         cout << roundNum;
         
