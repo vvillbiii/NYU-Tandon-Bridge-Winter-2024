@@ -23,8 +23,11 @@
 * (Section 3.2 - Set of Sets)[https://www.youtube.com/watch?v=lm4eM7fitXQ]
 * (Section 3.3 - Union and Intersection)[https://www.youtube.com/watch?v=ExleInzaBTI]
 * (Section 3.4 - More set opetations)[https://www.youtube.com/watch?v=01IbHvumHUk]
+* (Section 3.6 - Cartesian Products)[https://www.youtube.com/watch?v=gGFUTbwvgtA]
+    * labeled 3.6. Represents content from Section 3.6  
 * (Section 3.5 - Set Identities)[https://www.youtube.com/watch?v=-uSJvhUlnb0]
     * labeled 3.5. Represents content from Section 3.6  
+
 
 ## Chapter four 
 * (Section 4.1 - Definitions of Functions)[https://www.youtube.com/watch?v=TnbXEemIauw]
