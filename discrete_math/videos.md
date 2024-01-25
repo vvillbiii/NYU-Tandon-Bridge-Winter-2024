@@ -2,7 +2,12 @@
 
 ## Chapter One
 * [Section 1.1 - Propositions and Logical Operations](https://www.youtube.com/watch?v=jgiZKo-Q8UQ)
-
+* [Section 1.2 - Evaluating Compound Propositions](https://www.youtube.com/watch?v=giHhpGuwZ5Y)
+* [Section 1.3 - Conditional Statements](https://www.youtube.com/watch?v=G-8hj3rXES0)
+* [Section 1.4 - Logical Equivalence](https://www.youtube.com/watch?v=cq75RqBus5I)
+* [Section 1.5 - Laws of Propositional Logic](https://www.youtube.com/watch?v=sbPPW9iOECc)
+* [Section 1.6 - Predicates and Quantifiers](https://www.youtube.com/watch?v=w_r9y35hJos)
+* [Section 1.7 - Quantified Statements](https://www.youtube.com/watch?v=5C1q7Nr-Gcs)
 * [Section 1.8 - De Morgan's Law for Quantified Statements](https://www.youtube.com/watch?v=YIAZRdTxS_E)
 * [Section 1.9 - Nested Quantifiers](https://www.youtube.com/watch?v=PAtet-ZGEAY&ab_channel=JamesWenson)
 * [Section 1.10 - More Nested Quantified Statements](https://www.youtube.com/watch?v=ZOZAN6HKKuY)
