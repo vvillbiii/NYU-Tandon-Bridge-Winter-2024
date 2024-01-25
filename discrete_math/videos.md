@@ -26,4 +26,11 @@
 * (Section 3.5 - Set Identities)[https://www.youtube.com/watch?v=-uSJvhUlnb0]
     * labeled 3.5. Represents content from Section 3.6  
 
-    
+## Chapter four 
+* (Section 4.1 - Definitions of Functions)[https://www.youtube.com/watch?v=TnbXEemIauw]
+* (Section 4.3 - Properties of Functions)[https://www.youtube.com/watch?v=0pEZhjTIHNg]
+    * labeled 4.3 Represents content from Section 4.2  
+* (Section 4.4 - The Inverse of a Function)[https://www.youtube.com/watch?v=Xmi9ASoynXo]
+    * labeled 4.4 Represents content from Section 4.3  
+* (Section 4.5 - Composition of Functions)[https://www.youtube.com/watch?v=xaLs3d1Sl-Y]
+    * labeled 4.5 Represents content from Section 4.4  
