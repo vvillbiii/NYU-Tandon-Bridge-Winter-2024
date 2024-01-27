@@ -11,3 +11,7 @@
 * [A Guide to Proof-Writing](https://highered.mheducation.com/sites/dl/free/125967651x/1106131/A_Guide_to_Writing_Proofs.pdf)
 * [Discrete Mathematisc Course](https://www.youtube.com/playlist?list=PLZh9gzIvXQUtB1t57_Xyk3yp9MK2iIFXX)
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
+
+## General Note 
+if you have a mac, you can write Latex in pages. 
+* [List of mathematical symbol shortcuts supported in Google Docs equations](https://lukaskollmer.de/posts/google-docs-math-symbols/)
