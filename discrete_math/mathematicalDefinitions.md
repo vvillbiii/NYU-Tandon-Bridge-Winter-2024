@@ -34,3 +34,7 @@
     - x = c, or 
     - x > c.
 - Additional symbols like ≤ (less than or equal to) and ≥ (greater than or equal to) are also used.
+- A real number x is positive if and only if x > 0
+- A real number x is negative if and only if x < 0 
+- A real number x is non-negative if and only if x ≥ 0
+- A real number x is non-positive if and only if x  ≤ 0
