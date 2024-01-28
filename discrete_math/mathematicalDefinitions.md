@@ -4,7 +4,8 @@
 
 - An integer x is even if there exists an integer k such that x = 2k.
 - An integer x is odd if there exists an integer k such that x = 2k + 1.
-- The parity of a number refers to whether it is even or odd. Two numbers have the same parity if they are both even or both odd, and opposite parity if one is even and the other is odd.
+- The parity of a number refers to whether it is even or odd. 
+    - Two numbers have the same parity if they are both even or both odd, and opposite parity if one is even and the other is odd.
 
 ## Rational Numbers:
 
