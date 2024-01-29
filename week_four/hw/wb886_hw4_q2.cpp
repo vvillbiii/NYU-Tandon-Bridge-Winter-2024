@@ -24,31 +24,31 @@ int main()
 
     while(input > 0){
         if(input >= M){
-            input = input - M;
+            input -= M;
             romanDigit = romanDigit + "M";
         }
         else if(input >= D){
-            input = input - D;
+            input -= D;
             romanDigit = romanDigit + "D";
         }
         else if(input >= C){
-            input = input - C;
+            input -= C;
             romanDigit = romanDigit + "C";
         }
           else if(input >= L){
-            input = input - L;
+            input -= L;
             romanDigit = romanDigit + "L";
         }
           else if(input >= X){
-            input = input - X;
+            input -= X;
             romanDigit = romanDigit + "X";
         }
           else if(input >= V){
-            input = input - V;
+            input -= V;
             romanDigit = romanDigit + "V";
         }
         else if( input >= I){
-            input = input - I;
+            input -= I;
             romanDigit = romanDigit + "I";
         }
     }
