@@ -22,7 +22,7 @@ int main()
 
     user = input;
 
-    while(input != 0){
+    while(input > 0){
         if(input >= M){
             input = input - M;
             romanDigit = romanDigit + "M";
