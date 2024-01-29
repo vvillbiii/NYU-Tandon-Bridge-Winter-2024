@@ -15,7 +15,7 @@ const int I = 1;
 
 int main()
 {
-    int input, remainder, user;
+    int input, user;
     string romanDigit;
     cout <<"Enter decimal number:"<<endl;
     cin >> input;
@@ -24,39 +24,32 @@ int main()
 
     while(input != 0){
         if(input >= M){
-            remainder = input % M;
-            romanDigit = romanDigit + "M";
             input = input - M;
+            romanDigit = romanDigit + "M";
         }
         else if(input >= D){
-            remainder = input % D;
-            romanDigit = romanDigit + "D";
             input = input - D;
+            romanDigit = romanDigit + "D";
         }
         else if(input >= C){
-            remainder = input % C;
-            romanDigit = romanDigit + "C";
             input = input - C;
+            romanDigit = romanDigit + "C";
         }
           else if(input >= L){
-            remainder = input % L;
-            romanDigit = romanDigit + "L";
             input = input - L;
+            romanDigit = romanDigit + "L";
         }
           else if(input >= X){
-            remainder = input % X;
-            romanDigit = romanDigit + "X";
             input = input - X;
+            romanDigit = romanDigit + "X";
         }
           else if(input >= V){
-            remainder = input % V;
-            romanDigit = romanDigit + "V";
             input = input - V;
+            romanDigit = romanDigit + "V";
         }
         else if( input >= I){
-            remainder = input % I;
-            romanDigit = romanDigit + "I";
             input = input - I;
+            romanDigit = romanDigit + "I";
         }
     }
    
