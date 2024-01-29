@@ -10,7 +10,13 @@ int main()
     lines = 2 * n;
 
     for(int i = 1; i <= lines; i++){
-        cout<<"*"<<endl;
+        
+        for(int j = 1; j <= lines -1; j++){
+            
+            cout<< "*";
+
+        }
+         cout <<endl;
     }
 
 
