@@ -9,20 +9,22 @@ int main()
 
     lines = 2 * n;
 
-    for(int i = 1; i <= lines; i++){
+    for(int lineCount = 1; lineCount <= n; lineCount++){
 
-        
-        for(int j = 1; j <= lines - i; j++)
+        for(int space = 1; space <= lineCount; space++){
+            cout << " ";
+        }
+
+        for(int stars = lines - lineCount; stars >= lineCount; stars--){
             cout<< "*";
+        }
 
         cout << endl;
     }
 
-   for(int i = 1; i <= lines; i++){
+   for(int lineCount = 1; lineCount <= n; lineCount++){
 
-        
-        for(int j = 1; j  <= lines - i ; j++)
-            cout<< "*";
+        cout << lineCount;
 
         cout << endl;
     }
