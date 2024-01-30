@@ -32,9 +32,8 @@ int main()
         if(num == -1){
             seenNum = true;
         }else {
-        currNum *= num;
-        sequence++;
-
+            currNum *= num;
+            sequence++;
         }
     }
     cout << "The geometric mean is: " << pow(currNum, (1.0 /sequence)) <<endl;
