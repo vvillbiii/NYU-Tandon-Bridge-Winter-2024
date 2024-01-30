@@ -11,8 +11,7 @@ int main()
 
     for(int lineCount = 1; lineCount <= n; lineCount++){
 
-        for(int space = 0; space <= lineCount; space++){
-          
+        for(int space = 1; space <= lineCount; space++){
             cout << " ";
         }
 
@@ -25,8 +24,11 @@ int main()
 
    for(int lineCount = 1; lineCount <= n; lineCount++){
 
+        for(int space = 0; space <= n - lineCount; space++){
+            cout << " ";
+        }
+
         for(int stars = 1; stars <= 2 * lineCount - 1; stars++){
-            
             cout << "*";
         }
         cout << endl;
