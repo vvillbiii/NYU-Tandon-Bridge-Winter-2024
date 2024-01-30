@@ -37,11 +37,3 @@ int main()
 
     return 0;
 }
-
-
-
-//   if(digit < 10){
-//             if(digit % 2 == 0){
-//                 cout << digit << endl;
-//             }
-//         }
