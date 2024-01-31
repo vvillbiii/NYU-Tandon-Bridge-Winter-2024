@@ -3,13 +3,13 @@ using namespace std;
 
 int main()
 {
-    int n, lines;
+    int userNum, lines;
     cout << "Enter a positive integer: ";
-    cin >> n;
+    cin >> userNum;
 
-    lines = 2 * n;
+    lines = 2 * userNum;
 
-    for(int lineCount = 1; lineCount <= n; lineCount++){
+    for(int lineCount = 1; lineCount <= userNum; lineCount++){
 
         for(int space = 1; space <= lineCount; space++){
             cout << " ";
@@ -22,9 +22,9 @@ int main()
         cout << endl;
     }
 
-   for(int lineCount = 1; lineCount <= n; lineCount++){
+   for(int lineCount = 1; lineCount <= userNum; lineCount++){
 
-        for(int space = 0; space <= n - lineCount; space++){
+        for(int space = 0; space <= userNum - lineCount; space++){
             cout << " ";
         }
 
