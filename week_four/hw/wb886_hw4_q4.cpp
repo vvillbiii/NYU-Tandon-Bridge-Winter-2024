@@ -27,7 +27,7 @@ int main()
     seenNum = false;
     currNum = 1;
     sequence = 0;
-    while(seenNum == false){
+    while(!seenNum){
         cin>>num;
         if(num == -1){
             seenNum = true;
