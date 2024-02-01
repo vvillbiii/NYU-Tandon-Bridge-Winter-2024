@@ -43,3 +43,8 @@
     * labeled 4.4 Represents content from Section 4.3  
 * [Section 4.5 - Composition of Functions](https://www.youtube.com/watch?v=xaLs3d1Sl-Y)
     * labeled 4.5 Represents content from Section 4.4  
+
+
+## Chapter five 
+* [Seciton 5.1 - Sum and product rules](https://www.youtube.com/watch?v=O6p2O6TRvUQ)
+    * video is titled chapter 10.1 
