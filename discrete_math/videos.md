@@ -48,3 +48,5 @@
 ## Chapter five 
 * [Seciton 5.1 - Sum and product rules](https://www.youtube.com/watch?v=O6p2O6TRvUQ)
     * video is titled chapter 10.1 
+* [Seciton 5.2 - The Bijection Rule](https://www.youtube.com/watch?v=5QZsD6ihHqM)   
+* [Seciton 5.3 - The Generalized Product Rule](https://www.youtube.com/watch?v=PqU7lViawDs)    
