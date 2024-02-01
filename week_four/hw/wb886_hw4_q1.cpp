@@ -3,12 +3,12 @@ using namespace std;
 
 int main()
 {
-    int n, i;
+    int inputNum, i;
     cout << "Please enter a positive integer: ";
-    cin >> n;
+    cin >> inputNum;
 
     cout << "Section A"<<endl;
-    while(i <= n * 2){
+    while(i <= inputNum * 2){
         if(i % 2 == 0){
             cout << i <<endl;
         }
@@ -17,7 +17,7 @@ int main()
 
 
     cout << "Section B"<<endl;
-    for(i = 1; i <= n * 2; i++){
+    for(i = 1; i <= inputNum * 2; i++){
         if(i % 2 == 0){
             cout << i << endl;
         }
