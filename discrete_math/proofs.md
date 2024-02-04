@@ -13,10 +13,11 @@
 ## 2.3 Proof by contrapositive 
 - Assumes the negation of the conclusion is true and deduces the negation of the hypothesis. (Ex: Show if n2 is even then n is even)
 - Useful when the negation of the conclusion is easier to work with than the original hypothesis.
+    - if p then q for direct proofs the contrapositive says if NOT q then NOT P
 
 ## 2.4 Proof by contradiction
 - Assumes the statement is false and shows this assumption leads to a logical contradiction. (Ex: Assume √2 is rational. Show this leads to a contradiction)
-- More general technique than direct proof or contrapositive because it can prove non-conditional statements. 
+- More general technique than direct proof or contrapositive because it can prove non-conditional statements.     
 
 ## 2.5 Proof by cases
 - Breaks the domain into exhaustive cases and proves the theorem separately for each case. (Ex: Let n be even or odd, prove in both cases n2 - n is even)
