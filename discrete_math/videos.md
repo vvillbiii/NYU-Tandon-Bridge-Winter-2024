@@ -50,3 +50,6 @@
     * video is titled chapter 10.1 
 * [Seciton 5.2 - The Bijection Rule](https://www.youtube.com/watch?v=5QZsD6ihHqM)   
 * [Seciton 5.3 - The Generalized Product Rule](https://www.youtube.com/watch?v=PqU7lViawDs)    
+* [Section 5.4 - Counting Permutations](https://www.youtube.com/watch?v=-Uxmjo8MTSk)
+* [Section 5.5 - Counting Subsets](https://www.youtube.com/watch?v=mGCb4aSQQgU)
+* [Section 5.6 -  Subset and permutation examples](https://www.youtube.com/watch?v=hzc359UYWEo)
