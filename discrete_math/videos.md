@@ -53,3 +53,5 @@
 * [Section 5.4 - Counting Permutations](https://www.youtube.com/watch?v=-Uxmjo8MTSk)
 * [Section 5.5 - Counting Subsets](https://www.youtube.com/watch?v=mGCb4aSQQgU)
 * [Section 5.6 -  Subset and permutation examples](https://www.youtube.com/watch?v=hzc359UYWEo)
+* [Section 5.7 - Counting by Complement](https://www.youtube.com/watch?v=GQ2VZS_Am90)
+* [Section 5.8 - Permutations with Repetitions](https://www.youtube.com/watch?v=mMdlQi7ZFY0)
