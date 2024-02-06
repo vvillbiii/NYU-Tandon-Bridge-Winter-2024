@@ -22,3 +22,10 @@
 * De Morgan's laws - De Morgan's laws are logical equivalences that show how to correctly distribute a negation operation inside a parenthesized expression.
 * predicate - A logical statement whose truth value is a function of one or more variables is called a predicate.
 * domain - The domain of a variable in a predicate is the set of all possible values for the variable.
+
+* nested quantifiers - A logical expression with more than one quantifier that binds different variables in the same predicate is said to have nested quantifiers.
+* two player game - In reasoning whether a quantified statement is true or false, it is useful to think of the statement as a two player game in which two players compete to set the statement's truth value.
+* argument / hypotheses / conclusion - An argument is a sequence of propositions, called hypotheses, followed by a final proposition, called the conclusion.
+* valid / invalid - Whenever the hypotheses of an argument are all true, the argument is valid if the conclusion is true and invalid if the conclusion is false.
+* form - The form of an argument expressed in English is obtained by replacing each individual proposition with a variable.
+* logical proof - The validity of an argument can be established by applying the rules of inference and laws of propositional logic in a logical proof.
