@@ -13,3 +13,12 @@
 * inclusive or - The inclusive or operation is the same as the disjunction (v) operation and evaluates to true when one or both of the propositions are true.
 * negation - The negation operation acts on just one proposition and has the effect of reversing the truth value of the proposition. The negation of proposition p is denoted 
  ¬p and is read as "not p.".
+
+* conditional proposition - A compound proposition that uses a conditional operation is called a conditional proposition.
+* conditional statement - A conditional proposition expressed in English is sometimes referred to as a conditional statement.
+* tautology - A compound proposition is a tautology if the proposition is always true, regardless of the truth value of the individual propositions that occur in it.
+* contradiction - A compound proposition is a contradiction if the proposition is always false, regardless of the truth value of the individual propositions that occur in it.
+* logically equivalent - Two compound propositions are said to be logically equivalent if they have the same truth value regardless of the truth values of their individual propositions.
+* De Morgan's laws - De Morgan's laws are logical equivalences that show how to correctly distribute a negation operation inside a parenthesized expression.
+* predicate - A logical statement whose truth value is a function of one or more variables is called a predicate.
+* domain - The domain of a variable in a predicate is the set of all possible values for the variable.
