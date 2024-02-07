@@ -11,9 +11,9 @@ int main()
         cout << i << " ";
         for (int j = 2; j <= userInput; j++){
             if (i == 1){
-                cout << " " <<  j << " ";
+                cout << "  "<<  j << "  ";
             } else {
-                cout << " " << j * i << " ";
+                cout << "  " << j * i << " ";
             }
         }
 
