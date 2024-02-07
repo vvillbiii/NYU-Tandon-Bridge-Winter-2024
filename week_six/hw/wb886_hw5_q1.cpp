@@ -10,7 +10,11 @@ int main()
     for(int i = 1; i <= userInput; i++){
         cout << i << " ";
         for (int j = 2; j <= userInput; j++){
-            cout << " " <<  j  << " ";
+            if (i == 1){
+                cout << " " <<  j << " ";
+            } else {
+                cout << " " << j * i << " ";
+            }
         }
 
         cout << endl;
