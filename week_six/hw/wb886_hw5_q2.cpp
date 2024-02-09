@@ -6,14 +6,11 @@ using namespace std;
 
 int main() 
 {
-    int x1, x2, x3, x4, userGuess, attempts;
+    int x1, x2, x3, x4, userGuess, attempts, minRange = 1, maxRange = 100;
 
     srand(time(0));
 
     x1 = (rand() % 100) + 1;
-    x2 = (rand() % 100) + 1;
-    x3 = (rand() % 100) + 1;
-    x4 = (rand() % 100) + 1;
     attempts = 5;
 
     cout<<x1<<" "<<x2<<" "<<x3<<" "<<x4<<endl;
@@ -25,7 +22,7 @@ int main()
                 break;
             }
 
-            cout <<"Range: [1, 100], Number of guesses left: " << attempts <<endl;
+            cout <<"Range: [" << minRange << ", " << maxRange << "], Number of guesses left: " << attempts <<endl;
             cout << "Your guess: ";
             cin >> userGuess;
             if(userGuess < x1){
