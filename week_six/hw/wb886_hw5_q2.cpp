@@ -25,6 +25,7 @@ int main()
             cout <<"Range: [" << minRange << ", " << maxRange << "], Number of guesses left: " << attempts <<endl;
             cout << "Your guess: ";
             cin >> userGuess;
+            
             if(userGuess < x1){
                 cout<< "Wrong! My number is bigger." <<endl;
                 minRange = userGuess + 1;
@@ -32,9 +33,8 @@ int main()
                 cout<< "Wrong! My number is smaller."<<endl;
                 maxRange = userGuess - 1;
             }
-
           
-        if(attempts == 1){
+        if(attempts == 1 && userGuess != x1){
             cout <<"Out of guesses! My number is "<< x1<< endl;
             break;
         }
