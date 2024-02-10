@@ -8,12 +8,12 @@ int main()
     cin >> userInput;
 
     for(int i = 1; i <= userInput; i++){
-        cout << i << " ";
+        cout << i << "\t";
         for (int j = 2; j <= userInput; j++){
             if (i == 1){
-                cout << "  "<<  j << "  ";
+                cout <<  j << "\t";
             } else {
-                cout << "  " << j * i << " ";
+                cout << j * i << "\t";
             }
         }
 
