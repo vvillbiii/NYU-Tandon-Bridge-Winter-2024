@@ -13,7 +13,8 @@ int main()
     x1 = (rand() % 100) + 1;
     attempts = 5;
 
-    cout<<x1<<endl;
+    // This is the number the user is supposed to guess
+    // cout<<x1<<endl;
 
     cout<< "I thought of a number between 1 and 100! Try to guess it."<<endl;
     while(attempts > 1 || userGuess != x1){
