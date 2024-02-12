@@ -58,3 +58,4 @@
 
 ## Chapter Six
 * [6.1 Probability of an event](https://www.youtube.com/watch?v=A3iZbeBklqc&ab_channel=JamesWenson)
+* [6.2 - Unions and Complements of Events](https://www.youtube.com/watch?v=QV2-6tgLNxA&ab_channel=JamesWenson)
