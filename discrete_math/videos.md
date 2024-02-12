@@ -55,3 +55,6 @@
 * [Section 5.6 -  Subset and permutation examples](https://www.youtube.com/watch?v=hzc359UYWEo)
 * [Section 5.7 - Counting by Complement](https://www.youtube.com/watch?v=GQ2VZS_Am90)
 * [Section 5.8 - Permutations with Repetitions](https://www.youtube.com/watch?v=mMdlQi7ZFY0)
+
+## Chapter Six
+* [6.1 Probability of an event](https://www.youtube.com/watch?v=A3iZbeBklqc&ab_channel=JamesWenson)
