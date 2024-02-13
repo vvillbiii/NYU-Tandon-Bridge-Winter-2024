@@ -35,7 +35,7 @@
     * labeled 3.5. Represents content from Section 3.6  
 
 
-## Chapter four 
+## Chapter Four 
 * [Section 4.1 - Definitions of Functions](https://www.youtube.com/watch?v=TnbXEemIauw)
 * [Section 4.3 - Properties of Functions](https://www.youtube.com/watch?v=0pEZhjTIHNg)
     * labeled 4.3 Represents content from Section 4.2  
@@ -45,7 +45,7 @@
     * labeled 4.5 Represents content from Section 4.4  
 
 
-## Chapter five 
+## Chapter Five 
 * [Seciton 5.1 - Sum and product rules](https://www.youtube.com/watch?v=O6p2O6TRvUQ)
     * video is titled chapter 10.1 
 * [Seciton 5.2 - The Bijection Rule](https://www.youtube.com/watch?v=5QZsD6ihHqM)   
