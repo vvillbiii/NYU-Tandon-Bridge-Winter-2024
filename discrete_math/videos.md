@@ -64,4 +64,5 @@
 ## Chapter Seven
 * [Section 7. 4 - Mathematical Induction](https://www.youtube.com/watch?v=mbPT4JqziEA&ab_channel=JamesWenson)
 * [Section 7.5 - More Inductive Proofs](https://www.youtube.com/watch?v=6jvl7yM40sk&ab_channel=JamesWenson)
+* [Strong Induction and Well-Ordering](https://www.youtube.com/watch?v=PyMRZKwsbUM&ab_channel=JamesWenson)
 * [Section 7.7 - Recursive Definitions](https://www.youtube.com/watch?v=BVOtbyl70vo&ab_channel=JamesWenson)
