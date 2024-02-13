@@ -61,5 +61,5 @@
 * [Section 6.2 - Unions and Complements of Events](https://www.youtube.com/watch?v=QV2-6tgLNxA&ab_channel=JamesWenson)
 * [Section 6.3 - Conditional Probability and Independence](https://www.youtube.com/watch?v=UEDXDtDAKN0&ab_channel=JamesWenson)
 
-## chapter seven
-* [Mathematical Induction](https://www.youtube.com/watch?v=mbPT4JqziEA&ab_channel=JamesWenson)
+## Chapter Seven
+* [Section 7. 4 - Mathematical Induction](https://www.youtube.com/watch?v=mbPT4JqziEA&ab_channel=JamesWenson)
