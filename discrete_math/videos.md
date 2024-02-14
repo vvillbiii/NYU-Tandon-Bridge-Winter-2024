@@ -29,25 +29,19 @@
 * [Section 3.2 - Set of Sets](https://www.youtube.com/watch?v=lm4eM7fitXQ)
 * [Section 3.3 - Union and Intersection](https://www.youtube.com/watch?v=ExleInzaBTI)
 * [Section 3.4 - More set opetations](https://www.youtube.com/watch?v=01IbHvumHUk)
-* [Section 3.6 - Cartesian Products](https://www.youtube.com/watch?v=gGFUTbwvgtA)
-    * labeled 3.6. Represents content from Section 3.5 
 * [Section 3.5 - Set Identities](https://www.youtube.com/watch?v=-uSJvhUlnb0)
-    * labeled 3.5. Represents content from Section 3.6  
+* [Section 3.6 - Cartesian Products](https://www.youtube.com/watch?v=gGFUTbwvgtA)
 
 
 ## Chapter Four 
 * [Section 4.1 - Definitions of Functions](https://www.youtube.com/watch?v=TnbXEemIauw)
 * [Section 4.3 - Properties of Functions](https://www.youtube.com/watch?v=0pEZhjTIHNg)
-    * labeled 4.3 Represents content from Section 4.2  
 * [Section 4.4 - The Inverse of a Function](https://www.youtube.com/watch?v=Xmi9ASoynXo)
-    * labeled 4.4 Represents content from Section 4.3  
 * [Section 4.5 - Composition of Functions](https://www.youtube.com/watch?v=xaLs3d1Sl-Y)
-    * labeled 4.5 Represents content from Section 4.4  
 
 
 ## Chapter Five 
-* [Seciton 5.1 - Sum and product rules](https://www.youtube.com/watch?v=O6p2O6TRvUQ)
-    * video is titled chapter 10.1 
+* [Seciton 5.1 - Sum and product rules](https://www.youtube.com/watch?v=O6p2O6TRvUQ) 
 * [Seciton 5.2 - The Bijection Rule](https://www.youtube.com/watch?v=5QZsD6ihHqM)   
 * [Seciton 5.3 - The Generalized Product Rule](https://www.youtube.com/watch?v=PqU7lViawDs)    
 * [Section 5.4 - Counting Permutations](https://www.youtube.com/watch?v=-Uxmjo8MTSk)
@@ -62,7 +56,7 @@
 * [Section 6.3 - Conditional Probability and Independence](https://www.youtube.com/watch?v=UEDXDtDAKN0&ab_channel=JamesWenson)
 
 ## Chapter Seven
-* [Section 7. 4 - Mathematical Induction](https://www.youtube.com/watch?v=mbPT4JqziEA&ab_channel=JamesWenson)
+* [Section 7.4 - Mathematical Induction](https://www.youtube.com/watch?v=mbPT4JqziEA&ab_channel=JamesWenson)
 * [Section 7.5 - More Inductive Proofs](https://www.youtube.com/watch?v=6jvl7yM40sk&ab_channel=JamesWenson)
 * [Section 7.6 - Strong Induction and Well-Ordering](https://www.youtube.com/watch?v=PyMRZKwsbUM&ab_channel=JamesWenson)
 * [Section 7.7 - Recursive Definitions](https://www.youtube.com/watch?v=BVOtbyl70vo&ab_channel=JamesWenson)
