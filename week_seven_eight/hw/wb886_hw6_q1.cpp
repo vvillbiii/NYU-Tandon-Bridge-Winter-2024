@@ -13,6 +13,9 @@ int main()
     cout << "Please enter a positive integer: ";
     cin >> num;
 
+    numInSequence = fib(num); 
+
+    cout << numInSequence;
 
     return 0;
 }
