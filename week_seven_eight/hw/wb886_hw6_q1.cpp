@@ -1,9 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// The Fibonacci numbers sequence, Fn, is defined as follows:
-// F1 is 1,F2 is 1,and Fn =Fn-1 +Fn-2 form=3,4,5,...
-// In other words, each number is the sum of the previous two numbers. The first 10 numbers in Fibonacci sequence are: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
+// The Fibonacci numbers sequence
 
 int fib(int n);
 
@@ -21,9 +19,10 @@ int main()
 }
 
 int fib(int num){
-    // fib = f1 + f2 
-    //  Each number is the sum of the two before it.
-    /*
+     /*
+        f1 + f2 = fib
+        Each number is the sum of the two before it.
+   
         f1 = 1 and f2 = 0 fib is 1
         1 + 0 = 1
 
@@ -55,7 +54,6 @@ int fib(int num){
         prevf1 = f1;
         f1 = fib;
         f2 = prevf1;
-      
     }
 
     return fib;
