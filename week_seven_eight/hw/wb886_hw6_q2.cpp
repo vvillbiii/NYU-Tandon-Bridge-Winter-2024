@@ -16,12 +16,12 @@ void printShiftedTriangle(int n, int m, char symbol){
 
     for(int lines = 1; lines <= n; lines++){
 
-        for(int space = 1; space <= m  ; space++){
+        for(int space = 1 ; space <= 2 * m - lines - 1; space++){
             cout<< " ";
         }
        
 
-        for(int sign = 1; sign <= lines; sign++ ){
+        for(int sign = 1; sign <= 2 * lines - 1; sign++){   
             cout<<symbol;
         }
 
