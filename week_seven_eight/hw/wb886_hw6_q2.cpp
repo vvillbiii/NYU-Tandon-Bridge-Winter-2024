@@ -13,8 +13,19 @@ int main()
 
 
 void printShiftedTriangle(int n, int m, char symbol){
+
     for(int lines = 1; lines <= n; lines++){
-        cout << lines << endl;
+
+        for(int space = 1; space <= m  ; space++){
+            cout<< " ";
+        }
+       
+
+        for(int sign = 1; sign <= lines; sign++ ){
+            cout<<symbol;
+        }
+
+        cout<< endl;;
     }
 
 }
