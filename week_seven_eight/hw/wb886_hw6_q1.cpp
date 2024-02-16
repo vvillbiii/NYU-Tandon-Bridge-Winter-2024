@@ -9,11 +9,15 @@ int fib(int n);
 
 int main()
 {
+    int num, numInSequence;
+    cout << "Please enter a positive integer: ";
+    cin >> num;
+
 
     return 0;
 }
 
 int fib(int num){
-    
+
     return 0;
 }
