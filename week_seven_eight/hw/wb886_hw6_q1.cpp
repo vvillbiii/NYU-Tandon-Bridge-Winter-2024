@@ -44,13 +44,18 @@ int fib(int num){
         
     */
 
-    int f1, f2, fib;
+    int f1, f2, prevf1, fib;
 
     f1 = 1;
     f2 = 0;
+    prevf1 = 0;
 
-    for(int i = 1; i <= num; i++){
-     
+    for(int i = 1; i < num; i++){
+        fib = f1 + f2;
+        prevf1 = f1;
+        f1 = fib;
+        f2 = prevf1;
+      
     }
 
     return fib;
