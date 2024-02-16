@@ -12,6 +12,6 @@
 * [Discrete Mathematisc Course](https://www.youtube.com/playlist?list=PLZh9gzIvXQUtB1t57_Xyk3yp9MK2iIFXX)
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 
-## General Note 
+### General Note 
 if you have a mac, you can write Latex in pages. 
 * [List of mathematical symbol shortcuts supported in Google Docs equations](https://lukaskollmer.de/posts/google-docs-math-symbols/)
