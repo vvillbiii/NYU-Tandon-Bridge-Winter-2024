@@ -2,17 +2,17 @@
 using namespace std;
 
 int main(){
-    float c; 
-    float f;
+    float celsius; 
+    float fahrenheit;
 
     cout << "Enter temperature in Celsius: "<<endl;
-    cin >> c;
+    cin >> celsius;
 
  
-    f = c * (9.0 / 5.0) + 32;
+    fahrenheit = celsius * (9.0 / 5.0) + 32;
 
     
-    cout <<"Temperature in Fahrenheit"<<f<< endl;
+    cout <<"Temperature in Fahrenheit "<<fahrenheit<< endl;
 
     return 0;
 }
