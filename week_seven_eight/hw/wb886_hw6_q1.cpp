@@ -7,13 +7,13 @@ int fib(int n);
 
 int main()
 {
-    int num, numInSequence;
+    int num, fibNum;
     cout << "Please enter a positive integer: ";
     cin >> num;
 
-    numInSequence = fib(num); 
+    fibNum = fib(num); 
 
-    cout << numInSequence;
+    cout << fibNum;
 
     return 0;
 }
@@ -43,18 +43,18 @@ int fib(int num){
         
     */
 
-    int f1, f2, prevf1, fib;
+    int f1, f2, prevf1, fibNum;
 
     f1 = 1;
     f2 = 0;
     prevf1 = 0;
 
     for(int i = 1; i < num; i++){
-        fib = f1 + f2;
+        fibNum = f1 + f2;
         prevf1 = f1;
-        f1 = fib;
+        f1 = fibNum;
         f2 = prevf1;
     }
 
-    return fib;
+    return fibNum;
 }
