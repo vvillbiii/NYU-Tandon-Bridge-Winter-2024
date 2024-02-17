@@ -7,7 +7,8 @@ void printPineTree(int n, char symbol);
 int main()
 {
     printShiftedTriangle(3, 4, '+');
-    
+    printPineTree(3, '#');
+
     return 0;
 }
 
@@ -27,5 +28,10 @@ void printShiftedTriangle(int n, int m, char symbol){
 
         cout<< endl;;
     }
+
+}
+
+
+void printPineTree(int n, char symbol){
 
 }
