@@ -2,7 +2,7 @@
 using namespace std;
 
 void printShiftedTriangle(int n, int m, char symbol);
-
+void printPineTree(int n, char symbol);
 
 int main()
 {
