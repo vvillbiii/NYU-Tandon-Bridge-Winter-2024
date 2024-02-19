@@ -15,7 +15,9 @@ int main()
 
 
 void printDivisors(int num){
-    for(int i = 0; i < num; i++){
-        cout<< i;
+    for(int i = 0; i <= num; i++){
+        if(num % i == 0){
+            cout << i << " ";
+        }
     }
 }
