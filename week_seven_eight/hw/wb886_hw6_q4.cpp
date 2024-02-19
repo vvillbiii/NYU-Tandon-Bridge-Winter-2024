@@ -5,7 +5,10 @@ void printDivisors(int num);
 
 int main()
 {
-    printDivisors(100);
+    int num;
+    cout<<"Please enter to number to find divisors: ";
+    cin >> num;
+    printDivisors(num);
 
     return 0;
 }
