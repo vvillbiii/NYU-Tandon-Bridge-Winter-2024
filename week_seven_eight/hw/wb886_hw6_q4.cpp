@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 void printDivisors(int num);
@@ -20,6 +21,13 @@ int main()
 
 
 void printDivisors(int num){
+    // need to think about how to get the second half of the number
+    for(int i = 0; i < sqrt(num); i++){
+        if(num % i == 0){
+            cout << i << " ";
+        }
+    }
+
     for(int i = 0; i <= num/2; i++){
         if(num % i == 0){
             cout << i << " ";
