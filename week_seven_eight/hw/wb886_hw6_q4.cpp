@@ -6,11 +6,11 @@ void printDivisors(int num);
 int main()
 {
     int num;
-    cout<<"Please enter a positive integer >= 2";
+    cout<<"Please enter a positive integer >= 2: ";
     cin >> num;
 
      if(num < 2){
-        cout<<"Num needs to be greater than or equal to 2";
+        cout<<"Num needs to be greater than or equal to 2. ";
     } else{
         printDivisors(num);
     }
