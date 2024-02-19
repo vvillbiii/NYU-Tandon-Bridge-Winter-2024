@@ -6,7 +6,7 @@ void printDivisors(int num);
 int main()
 {
     int num;
-    cout<<"Please enter to number to find divisors: ";
+    cout<<"Please enter a positive integer >= 2";
     cin >> num;
     printDivisors(num);
 
