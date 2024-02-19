@@ -20,7 +20,7 @@ int main()
 
 
 void printDivisors(int num){
-    for(int i = 0; i <= num; i++){
+    for(int i = 0; i <= num/2; i++){
         if(num % i == 0){
             cout << i << " ";
         }
