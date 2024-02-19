@@ -8,7 +8,12 @@ int main()
     int num;
     cout<<"Please enter a positive integer >= 2";
     cin >> num;
-    printDivisors(num);
+
+     if(num < 2){
+        cout<<"Num needs to be greater than or equal to 2";
+    } else{
+        printDivisors(num);
+    }
 
     return 0;
 }
