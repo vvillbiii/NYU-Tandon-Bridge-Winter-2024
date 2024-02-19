@@ -10,7 +10,7 @@ int main()
     cin >> num;
 
      if(num < 2){
-        cout<<"Num needs to be greater than or equal to 2. ";
+        cout<<"Integer needs to be greater than or equal to 2. ";
     } else{
         printDivisors(num);
     }
