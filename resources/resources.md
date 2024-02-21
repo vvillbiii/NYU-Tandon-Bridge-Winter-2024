@@ -15,3 +15,6 @@
 ### General Note 
 if you have a mac, you can write Latex in pages. 
 * [List of mathematical symbol shortcuts supported in Google Docs equations](https://lukaskollmer.de/posts/google-docs-math-symbols/)
+
+## Big O
+* [Asymptotic Notations 101: Big O, Big Omega, & Theta (Asymptotic Analysis Bootcamp)](https://www.youtube.com/watch?v=0oDAlMwTrLo&ab_channel=BackToBackSWE)
