@@ -42,11 +42,11 @@ void printPineTree(int n, char symbol){
                 cout<< " ";
             }
        
-        for(int sign = 1; sign <= 2 * lines - 1; sign++){   
-            cout<<symbol;
-        }
+            for(int sign = 1; sign <= 2 * lines - 1; sign++){   
+                cout<<symbol;
+            }
 
-        cout<< endl;;
+            cout<< endl;;
         }
     }
 }
