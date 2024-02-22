@@ -1,0 +1,1 @@
+printShiftedTriangle(3, 4, '+');

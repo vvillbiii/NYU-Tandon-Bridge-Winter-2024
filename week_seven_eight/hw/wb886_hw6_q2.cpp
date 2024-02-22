@@ -33,5 +33,17 @@ void printShiftedTriangle(int n, int m, char symbol){
 
 
 void printPineTree(int n, char symbol){
+     for(int lines = 1; lines <= n; lines++){
 
+        for(int space = 1 ; space <= n - lines ; space++){
+            cout<< " ";
+        }
+       
+
+        for(int sign = 1; sign <= 2 * lines - 1; sign++){   
+            cout<<symbol;
+        }
+
+        cout<< endl;;
+    }
 }
