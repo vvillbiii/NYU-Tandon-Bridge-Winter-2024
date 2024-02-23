@@ -37,7 +37,7 @@ void printPineTree(int n, char symbol){
     for(int triangle = 1; triangle <= n; triangle++){
 
         // prints N number of lines
-        for(int lines = 1; lines < n; lines++){
+        for(int lines = 1; lines <= n ; lines++){
             for(int space = 1 ; space <= n - lines ; space++){
                 cout<< " ";
             }
