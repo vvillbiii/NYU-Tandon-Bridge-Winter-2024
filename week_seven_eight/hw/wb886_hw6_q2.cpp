@@ -36,17 +36,8 @@ void printPineTree(int n, char symbol){
     // prints N number of triangles 
     for(int triangle = 1; triangle <= n; triangle++){
 
-        // prints N number of lines
-        for(int lines = 1; lines <= n ; lines++){
-            for(int space = 1 ; space <= n - lines ; space++){
-                cout<< " ";
-            }
-       
-            for(int sign = 1; sign <= 2 * lines - 1; sign++){   
-                cout<<symbol;
-            }
+        printShiftedTriangle((triangle + 1),(n),symbol);
 
-            cout<< endl;;
-        }
+        
     }
 }
