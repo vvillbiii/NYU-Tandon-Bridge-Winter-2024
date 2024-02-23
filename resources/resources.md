@@ -18,3 +18,4 @@ if you have a mac, you can write Latex in pages.
 
 ### Big O
 * [Asymptotic Notations 101: Big O, Big Omega, & Theta (Asymptotic Analysis Bootcamp)](https://www.youtube.com/watch?v=0oDAlMwTrLo&ab_channel=BackToBackSWE)
+* [Big Theta Complexity Examples](https://www.youtube.com/watch?v=tuFuXd3YQ8I&ab_channel=JonathanRosenzweig)
