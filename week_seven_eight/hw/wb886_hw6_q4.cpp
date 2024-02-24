@@ -21,16 +21,15 @@ int main()
 
 
 void printDivisors(int num){
-    // need to think about how to get the second half of the number
-    for(int i = 0; i < sqrt(num); i++){
+    for(int i = 1; i < sqrt(num); i++){
         if(num % i == 0){
             cout << i << " ";
         }
     }
 
-    for(int i = 0; i <= num/2; i++){
+    for(int i = sqrt(num); i >= 1; i--){
         if(num % i == 0){
-            cout << i << " ";
+            cout << num / i << " ";
         }
     }
 }
