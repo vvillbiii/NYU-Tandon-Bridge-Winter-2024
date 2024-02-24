@@ -21,7 +21,6 @@ void printShiftedTriangle(int n, int m, char symbol){
             cout<< " ";
         }
        
-
         for(int sign = 1; sign <= 2 * lines - 1; sign++){   
             cout<<symbol;
         }
@@ -33,11 +32,8 @@ void printShiftedTriangle(int n, int m, char symbol){
 
 
 void printPineTree(int n, char symbol){
-    // prints N number of triangles 
     for(int triangle = 1; triangle <= n; triangle++){
-
-        printShiftedTriangle((triangle + 1),(n),symbol);
-
-        
+        int tree = triangle + 1;
+        printShiftedTriangle(tree,n,symbol);        
     }
 }
