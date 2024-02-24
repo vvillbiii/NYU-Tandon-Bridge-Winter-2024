@@ -16,4 +16,14 @@ int main()
     return 0;
 }
 
+double eApprox(int n){
+    double sum = 1.0;
+    double factorial = 1.0;
 
+    for(int i = 1; i  <= n; i++){
+        factorial /= i;
+        sum += factorial;
+    }
+
+    return sum;
+}
