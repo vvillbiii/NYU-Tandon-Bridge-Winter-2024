@@ -27,12 +27,10 @@ int printMonthCalender(int numOfDays, int startingDay){
         } else if(i == 6){
             cout<<"Sat"<<"\t";
         } else {
-            cout <<"Sun"<<"\t";
+            cout <<"Sun"<<endl;
         }
         
-       
     }
-    
     
     return 0;
 }
