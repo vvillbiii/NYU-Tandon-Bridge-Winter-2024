@@ -38,13 +38,9 @@ int printMonthCalender(int numOfDays, int startingDay){
 }
 
 int daysInFeb(int year) {
- bool isLeapYear = (year % 4 == 0) && ((year % 100 != 0) || (year % 400 == 0));
-
-  if (isLeapYear) {
-    return 29;
-  } else {
-    return 28;
-  }
+    bool isLeapYear = (year % 4 == 0) && ((year % 100 != 0) || (year % 400 == 0));
+    int days = isLeapYear ? 29 : 28;
+    return days;
 }
 
 
