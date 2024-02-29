@@ -7,8 +7,10 @@ int daysInFeb(int year);
 
 int main()
 {
-    
-    printYearCalender(2016, 5);
+    int year, startingDay;
+    cout<<"Please enter year and starting day with a space between both. ex(2016 5)"<<endl;
+    cin>>year>>startingDay;
+    printYearCalender(year, startingDay);
 
     return 0;
 }
@@ -36,8 +38,9 @@ int printMonthCalender(int numOfDays, int startingDay){
 }
 
 int daysInFeb(int year) {
- bool leapYear = (year % 4 == 0) && ((year % 100 != 0) || (year % 400 == 0));
-  if (leapYear) {
+ bool isLeapYear = (year % 4 == 0) && ((year % 100 != 0) || (year % 400 == 0));
+
+  if (isLeapYear) {
     return 29;
   } else {
     return 28;
