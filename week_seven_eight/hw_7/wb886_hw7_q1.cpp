@@ -8,7 +8,7 @@ int daysInFeb(int year);
 int main()
 {
     int year, startingDay;
-    cout<<"Please enter year and starting day with a space between both. ex(2016 5)"<<endl;
+    cout<<"Please enter year and starting day with a space between. ex(2016 5)"<<endl;
     cin>>year>>startingDay;
     printYearCalender(year, startingDay);
 
