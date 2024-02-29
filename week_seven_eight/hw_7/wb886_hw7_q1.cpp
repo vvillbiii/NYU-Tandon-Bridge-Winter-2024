@@ -27,8 +27,10 @@ int printMonthCalender(int numOfDays, int startingDay){
             cout<<i<<"\t";
         }
     }
+
+    int lastDay = (numOfDays + startingDay - 1) % 7;
     
-    return 0;
+    return lastDay;
 }
 
 
