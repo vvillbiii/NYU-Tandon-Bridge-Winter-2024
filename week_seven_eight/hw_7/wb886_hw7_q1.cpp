@@ -15,8 +15,13 @@ int main()
 int printMonthCalender(int numOfDays, int startingDay){
 
     cout<<"Mon\tTues\tWed\tThr\tFri\tSat\tSun"<<endl;
+
+    for(int i = 1; i < startingDay; i++){
+        cout<<"\t";
+    }
+
     for(int i = 1; i <= numOfDays; i++){
-        if(i % 7 == 0){
+        if((i + startingDay - 1) % 7 == 0){
             cout<< i <<endl;
         } else {
             cout<<i<<"\t";
