@@ -3,11 +3,11 @@ using namespace std;
 
 int printMonthCalender(int numOfDays, int startingDay);
 void printYearCalender(int year, int startingDay);
-int DaysInFeb(int year);
+int daysInFeb(int year);
 
 int main()
 {
-    // printMonthCalender(31, 4);
+    
     printYearCalender(2016, 5);
 
     return 0;
@@ -35,7 +35,7 @@ int printMonthCalender(int numOfDays, int startingDay){
     return lastDay;
 }
 
-int DaysInFeb(int year) {
+int daysInFeb(int year) {
  bool leapYear = (year % 4 == 0) && ((year % 100 != 0) || (year % 400 == 0));
   if (leapYear) {
     return 29;
@@ -51,7 +51,7 @@ void printYearCalender(int year, int startingDay){
     cout<<endl;
 
     cout<<"February "<< year<<endl;
-    startingDay = printMonthCalender(DaysInFeb(year), startingDay) + 1;
+    startingDay = printMonthCalender(daysInFeb(year), startingDay) + 1;
     cout<<endl;
 
     cout<<"March "<< year<<endl;
