@@ -15,3 +15,7 @@ int main()
 void analyzeDividors(int num, int& outCountDivs, int& outSumDivs){
 
 }
+
+bool isPerfect(int num){
+    
+}
