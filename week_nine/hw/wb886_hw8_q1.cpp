@@ -16,7 +16,13 @@ int main()
     }
 
     min = minInArray(myArray, SIZE);
-    cout<<"The minimum value is " << min << " , and it is located in the following indices: ";
+    cout<<"The minimum value is " << min << ", and it is located in the following indices: ";
+
+    for(int i = 0; i < SIZE; i++){
+        if(myArray[i] == min){
+            cout<<i <<" ";
+        }
+    }
 
     return 0;
 }
