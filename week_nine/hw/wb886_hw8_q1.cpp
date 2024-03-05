@@ -8,15 +8,25 @@ const int SIZE = 20;
 int main()
 {
     int myArray[SIZE];
+    int min;
     cout<<"Please enter 20 integers separated by a space:"<<endl;
     for(int i = 0; i <= SIZE; i++){
         cin>>myArray[i];
     }
 
+    min = minInArray(myArray, SIZE);
+
     return 0;
 }
 
 int minInArray(int arr[], int arrSize){
+    int min = arr[0];
 
-    return 1;   
+    for(int i = 1; i <= arrSize; i++){
+        if(arr[i] < min){
+            min = arr[i];
+        }
+    }
+
+    return min;   
 }
