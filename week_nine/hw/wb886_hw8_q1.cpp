@@ -9,8 +9,9 @@ int main()
 {
     int myArray[SIZE];
     int min;
+
     cout<<"Please enter 20 integers separated by a space:"<<endl;
-    for(int i = 0; i <= SIZE; i++){
+    for(int i = 0; i < SIZE; i++){
         cin>>myArray[i];
     }
 
@@ -23,7 +24,7 @@ int main()
 int minInArray(int arr[], int arrSize){
     int min = arr[0];
 
-    for(int i = 1; i <= arrSize; i++){
+    for(int i = 0; i < arrSize; i++){
         if(arr[i] < min){
             min = arr[i];
         }
