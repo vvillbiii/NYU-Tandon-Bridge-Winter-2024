@@ -8,8 +8,6 @@ int main() {
     cout << "Please enter a line of text:"<<endl;
     getline(cin, line);
 
-   cout<<line;
-
     return 0;
 }
 
