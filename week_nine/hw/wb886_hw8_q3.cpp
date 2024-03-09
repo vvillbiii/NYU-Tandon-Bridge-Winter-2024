@@ -4,7 +4,7 @@ using namespace std;
 void printArray(int arr[], int arrSize);
 void reverseArray(int arr[], int arrSize);
 void removeOdd(int arr[], int& arrSize);
-// void splitParity(int arr[], int arrSize);
+void splitParity(int arr[], int arrSize);
 bool isEven(int n);
 
 int main() {
@@ -24,8 +24,8 @@ int main() {
     removeOdd(arr2, arr2Size); 
     printArray(arr2, arr2Size);
 
-    // splitParity(arr3, arr3Size); 
-    //printArray(arr3, arr3Size);
+    splitParity(arr3, arr3Size); 
+    printArray(arr3, arr3Size);
   
     return 0;
 }
@@ -61,4 +61,16 @@ void removeOdd(int arr[], int& arrSize) {
         }
     }
     arrSize -= sizeDecrease;
+}
+
+void splitParity(int arr[], int arrSize) {
+    int currentIndex = 0;
+
+    for (int i = 0; i < arrSize; i++) {
+        if (!isEven(arr[i])) {
+            int temp = arr[currentIndex];
+            arr[currentIndex++] = arr[i];
+            arr[i] = temp;
+        }
+    }
 }
