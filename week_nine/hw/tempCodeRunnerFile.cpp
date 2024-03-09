@@ -1,0 +1,1 @@
+splitParity(arr3, arr3Size);
