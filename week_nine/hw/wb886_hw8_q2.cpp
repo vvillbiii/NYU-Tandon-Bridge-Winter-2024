@@ -12,9 +12,9 @@ int main() {
     cin>>word;
 
     if (isPalindrome(word)) {
-        cout << word << " is a palindrome\n";
+        cout << word << " is a palindrome"<<endl;
     } else {
-        cout << word << " is not a palindrome\n";
+        cout << word << " is not a palindrome"<<endl;
     }
 
     return 0;
