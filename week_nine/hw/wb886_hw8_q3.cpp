@@ -42,10 +42,12 @@ void printArray(int arr[], int arrSize){
 }
 
 void reverseArray(int arr[], int arrSize) {
-    for (int i = (arrSize - 1) / 2; i >= 0; i--) {
-        int temp = arr[arrSize - 1 - i]; 
-        arr[arrSize - 1 - i] = arr[i]; 
-        arr[i] = temp; 
+    for (int i = 0; i < arrSize / 2; i++) {
+        int lastIndex = arrSize - 1;
+        int swap = arr[lastIndex - i]; 
+        arr[lastIndex - i] = arr[i];
+        arr[i] = swap; 
+
     }
 }
 
