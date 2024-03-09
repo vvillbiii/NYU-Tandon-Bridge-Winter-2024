@@ -3,9 +3,9 @@ using namespace std;
 
 void printArray(int arr[], int arrSize);
 void reverseArray(int arr[], int arrSize);
-// void removeOdd(int arr[], int& arrSize);
+void removeOdd(int arr[], int& arrSize);
 // void splitParity(int arr[], int arrSize);
-// bool isEven(int n);
+bool isEven(int n);
 
 int main() {
 
@@ -21,13 +21,17 @@ int main() {
     reverseArray(arr1, arr1Size); 
     printArray(arr1, arr1Size);
 
-    // removeOdd(arr2, arr2Size); 
-    //printArray(arr2, arr2Size);
+    removeOdd(arr2, arr2Size); 
+    printArray(arr2, arr2Size);
 
     // splitParity(arr3, arr3Size); 
     //printArray(arr3, arr3Size);
   
     return 0;
+}
+
+bool isEven(int n) {
+    return n % 2 == 0;
 }
 
 void printArray(int arr[], int arrSize){ 
@@ -45,3 +49,16 @@ void reverseArray(int arr[], int arrSize) {
     }
 }
 
+void removeOdd(int arr[], int& arrSize) {
+    int currentIndex = 0;
+    int sizeDecrease = 0;
+
+    for (int i = 0; i < arrSize; i++) {
+        if (isEven(arr[i])) {
+            arr[currentIndex++] = arr[i];
+        }else {
+            sizeDecrease++;
+        }
+    }
+    arrSize -= sizeDecrease;
+}
