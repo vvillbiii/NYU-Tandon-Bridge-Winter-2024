@@ -3,6 +3,7 @@
 using namespace std;
 
 int getWordCount(string sentence);
+bool isNotLetter(char letter);
 
 int main() {
 
@@ -20,10 +21,17 @@ int main() {
 int getWordCount(string sentence){
     int wordCount =0;
     for(int i = 0; i < sentence.length(); i++){
-        if(sentence[i] == ' ' || sentence[i] == '.' || sentence[i] == ','){
+        if(isNotLetter(sentence[i])){
             wordCount++;
-        }
+        } 
     }
 
     return wordCount;
+}
+
+bool isNotLetter(char letter){
+    if(letter == ' ' || letter == '.' || letter == ',' ){
+        return true;
+    }
+    return false;
 }
