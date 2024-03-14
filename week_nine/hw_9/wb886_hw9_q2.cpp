@@ -19,9 +19,9 @@ int main() {
     getline(cin, secondSentence);
 
     if(isAnagrams(firstSentence, secondSentence)){
-        cout<<"Strings are anagrams"<<endl;
+        cout<<firstSentence << " and " << secondSentence << " are anagrams."<<endl;
     } else{
-        cout<<"Strings are not anagrams"<<endl; 
+        cout<<firstSentence << " and " << secondSentence << " are not anagrams."<<endl;
     }
 
     return 0;
