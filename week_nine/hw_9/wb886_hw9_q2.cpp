@@ -2,7 +2,10 @@
 #include <string>
 using namespace std;
 
+const int ALPHABETNUM = 26;
+
 bool isAnagrams(string strOne, string strTwo);
+void getLetter(string sentence, int letterCount []);
 bool isLetter(char letter);
 
 int main() {
@@ -25,11 +28,17 @@ int main() {
 }
 
 bool isAnagrams(string strOne, string strTwo) {
-    int firstStrLetters[26] = {0};
-    int secondStrLetters[26] = {0};
+    int firstStrLetters[ALPHABETNUM] = {0};
+    int secondStrLetters[ALPHABETNUM] = {0};
 
     getLetter(strOne, firstStrLetters);
     getLetter(strTwo, secondStrLetters);
+
+    for(int i = 0; i < ALPHABETNUM; i++){
+        if(firstStrLetters[i] != secondStrLetters[i]){
+            return false;
+        }
+    }
 
 
     return true;
