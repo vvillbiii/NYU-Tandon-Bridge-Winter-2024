@@ -3,6 +3,7 @@
 using namespace std;
 
 bool isAnagrams(string strOne, string strTwo);
+bool isLetter(char letter);
 
 int main() {
     string firstSentence;
@@ -27,4 +28,8 @@ bool isAnagrams(string strOne, string strTwo) {
 
 
     return true;
+}
+
+bool isLetter(char letter) {
+    return (letter >= 'a' && letter <= 'z') || (letter >= 'A' && letter <= 'Z');
 }
