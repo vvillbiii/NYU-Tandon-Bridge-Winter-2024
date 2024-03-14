@@ -25,9 +25,22 @@ int main() {
 }
 
 bool isAnagrams(string strOne, string strTwo) {
+    int firstStrLetters[26] = {0};
+    int secondStrLetters[26] = {0};
+
+    getLetter(strOne, firstStrLetters);
+    getLetter(strTwo, secondStrLetters);
 
 
     return true;
+}
+
+void getLetter(string sentence, int letterCount []){   
+    for(int i = 0; i <= sentence.length(); i++){
+        if(isLetter(sentence[i])){
+           letterCount[tolower(sentence[i]) - 'a']++;
+        }
+    }
 }
 
 bool isLetter(char letter) {
