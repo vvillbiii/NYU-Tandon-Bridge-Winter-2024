@@ -74,43 +74,29 @@ int* getPosNums2(int* arr, int arrSize, int* outPosArrSizePtr) {
             outArr[count++] = arr[i];
         }
     }
-
+    
     *outPosArrSizePtr = count;
     return outArr;
 }
 
 void getPosNums3(int* arr, int arrSize, int*& outPosArr, int& outPosArrSize) {
+    outPosArr = new int[arrSize];
     int count = 0;
     for (int i = 0; i < arrSize; i++) {
         if (arr[i] > 0) {
-            count++;
+            outPosArr[count++] = arr[i];
         }
     }
-
-    outPosArr = new int[count];
     outPosArrSize = count;
-    int j = 0;
-    for (int i = 0; i < arrSize; i++) {
-        if (arr[i] > 0) {
-            outPosArr[j++] = arr[i];
-        }
-    }
 }
 
 void getPosNums4(int* arr, int arrSize, int** outPosArrPtr, int* outPosArrSizePtr) {
+    *outPosArrPtr = new int[arrSize];
     int count = 0;
     for (int i = 0; i < arrSize; i++) {
         if (arr[i] > 0) {
-            count++;
+            (*outPosArrPtr)[count++] = arr[i];
         }
     }
-
-    *outPosArrPtr = new int[count];
     *outPosArrSizePtr = count;
-    int j = 0;
-    for (int i = 0; i < arrSize; i++) {
-        if (arr[i] > 0) {
-            (*outPosArrPtr)[j++] = arr[i];
-        }
-    }
 }
