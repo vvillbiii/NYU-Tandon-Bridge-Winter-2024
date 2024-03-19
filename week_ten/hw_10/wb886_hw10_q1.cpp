@@ -2,19 +2,19 @@
 using namespace std;
 
 string* createWordsArray(string sentence, int& outWordsArrSize);
+void printWordsArray(const string arr[], int arr_size);
 
 int main()
 {
     string sentence;
     int wordArrSize = 0;
-    string wordArr[] = {0};
     cout<<"Enter sentence: ";
     getline(cin, sentence);
 
-    createWordsArray(sentence, wordArrSize);
+    string* wordArr = createWordsArray(sentence, wordArrSize);
 
+    printWordsArray(wordArr, wordArrSize);
     
- 
     return 0;
 }
 
@@ -33,5 +33,20 @@ string* createWordsArray(string sentence, int& outWordsArrSize) {
     wordArr[wordCount++] = sentence.substr(start);
     outWordsArrSize = wordCount;
 
-    return 0;
+    return wordArr;
+}
+
+
+void  printWordsArray(const string arr[], int arr_size) {
+    cout << "Words array: [";
+
+    for (int i = 0; i < arr_size; i++) {
+        cout << "\"" << arr[i] << "\"";
+
+        if (i != arr_size - 1) {
+            cout << ", ";
+        }
+    }
+
+    cout << "]\n";
 }
