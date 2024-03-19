@@ -14,7 +14,7 @@ int main()
     string* wordArr = createWordsArray(sentence, wordArrSize);
 
     printWordsArray(wordArr, wordArrSize);
-    
+
     return 0;
 }
 
@@ -38,7 +38,7 @@ string* createWordsArray(string sentence, int& outWordsArrSize) {
 
 
 void  printWordsArray(const string arr[], int arr_size) {
-    cout << "Words array: [";
+    cout << "[";
 
     for (int i = 0; i < arr_size; i++) {
         cout << "\"" << arr[i] << "\"";
@@ -48,5 +48,5 @@ void  printWordsArray(const string arr[], int arr_size) {
         }
     }
 
-    cout << "]\n";
+    cout << "]"<<endl;
 }
