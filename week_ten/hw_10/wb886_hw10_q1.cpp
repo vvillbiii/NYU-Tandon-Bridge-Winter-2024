@@ -2,7 +2,6 @@
 using namespace std;
 
 string* createWordsArray(string sentence, int& outWordsArrSize);
-bool isLetter(char letter);
 
 int main()
 {
@@ -19,20 +18,20 @@ int main()
     return 0;
 }
 
-string* createWordsArray(string sentence, int& outWordsArrSize){
-    int wordCount = 0;
-    int wordArr[] ={};
-    string word;
+string* createWordsArray(string sentence, int& outWordsArrSize) {
     int start = 0;
-    for(int i = 0; i < sentence.length(); i++){
-        if(!isLetter(sentence[i])){
-            wordCount++;
-        } 
+    int wordCount = 0;
+    string* wordArr = new string[sentence.length()];
+
+    for (int i = 0; i < sentence.length(); i++) {
+        if (sentence[i] == ' ') {
+            wordArr[wordCount++] = sentence.substr(start, i - start);
+            start = i + 1;
+        }
     }
 
-   cout<<wordCount<<" word Count"<<endl;
-}
+    wordArr[wordCount++] = sentence.substr(start);
+    outWordsArrSize = wordCount;
 
-bool isLetter(char letter) {
-    return (letter >= 'a' && letter <= 'z') || (letter >= 'A' && letter <= 'Z');
+    return 0;
 }
