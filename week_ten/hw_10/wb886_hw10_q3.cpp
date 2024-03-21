@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-int main1()
+void main1()
 {
-    return 0;
+    
 }
 
-int main2()
+void main2()
 {
-    return 0;
+ 
 }
 
 int main()
