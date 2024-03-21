@@ -11,11 +11,39 @@ int main()
      int * arrPtr = NULL;
      int reSizeArr = 0;
 
-     findMissing(arr,ARRSIZE,reSizeArr);
+    (arr,ARRSIZE,reSizeArr);
  
     return 0;
 }
 
-int* findMissing(int arr[], int &tgt, int &resArrSize){
+int* findMissing(int arr[], int n, int &resArrSize){
+
+    int elementCount = 0;
+    int i = 0;
+    int j = 0;
+
+    while (i <= n){
+    
+        if (arr[j] == i){
+            j = 0;
+            i++;
+        }
+        else if (arr[j] != i && j != resArrSize - 1){
+            j++;
+        }
+
+
+        if (j == resArrSize - 1 && arr[j] != i){
+            elementCount++;
+            i++;
+            j = 0;
+            
+        }
+        else if (j == resArrSize - 1 && arr[j] == i){
+            i++;
+            j = 0;
+        }
+
+    }
 
 }
