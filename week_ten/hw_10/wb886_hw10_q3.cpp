@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 void resizeArray(int*& arr, int& size);
@@ -55,7 +56,41 @@ void main1()
 
 void main2()
 {
- 
+    vector<int> sequence;
+    vector<int> lines; 
+
+    cout << "Please enter a sequence of positive integers, each in a separate line."<<endl;
+    cout << "End you input by typing -1."<<endl;
+    int num; 
+    while(num != -1){
+        sequence.push_back(num);
+        cin>> num;
+    }
+
+    int search;
+    cout << "Please enter a number you want to search."<<endl;
+    cin >> search;
+
+    for(int i = 0; i < sequence.size(); i++){
+        if(sequence[i] == search){
+            lines.push_back(i);
+        }
+    }
+
+    if (lines.size() == 0) {
+        cout << search << " is not in sequence." << endl;
+    }
+
+    else {
+        cout << search << " shows in lines ";
+        for (int i = 0; i < lines.size(); i++) {
+            cout << lines[i];
+            if (i == lines.size() - 1)
+                cout << "." << endl;
+            else
+                cout << ", ";
+        }
+    }
 }
 
 void resizeArray(int *&input, int &size) {
@@ -71,9 +106,9 @@ void resizeArray(int *&input, int &size) {
 int main()
 {
  
-    cout << "Main Part 1:" << endl;
+    cout << "Main 1:" << endl;
     main1();
-    cout << "Main Part 1:" << endl;
+    cout << "Main 2:" << endl;
     main2();
     return 0;
 }
