@@ -15,6 +15,7 @@ int main()
     cout << "Original: ";
     printArray(arr, ARRSIZE);
     cout << endl;
+    
     cout << "Missing: ";
     printArray(arrPtr, reSizeArr);
     cout << endl;
@@ -39,7 +40,7 @@ int* findMissing(int arr[], int n, int &resArrSize){
         }
     }
 
-   int* outputArray = new int[count];
+    int* outputArray = new int[count];
     int index = 0;
     for (int i = 0; i <= n; i++) {
         if (countValues[i] == 0) {
