@@ -3,47 +3,53 @@ using namespace std;
 
 const int ARRSIZE = 6;
 
-int* findMissing(int arr[], int n, int& res_arr_size);
+int* findMissing(int arr[], int n, int& resArrSize);
+void  printArray(int arr[], int arrSize);
 
 int main()
 {
      int arr[ARRSIZE] = {3, 1, 3, 0, 6, 4};
-     int * arrPtr = NULL;
      int reSizeArr = 0;
 
-    (arr,ARRSIZE,reSizeArr);
+    int* arrPtr = findMissing(arr,ARRSIZE,reSizeArr);
+    cout << "Original: ";
+    printArray(arr, ARRSIZE);
+    cout << endl;
+    cout << "Modified: ";
+    printArray(arrPtr, reSizeArr);
+    cout << endl;
  
     return 0;
 }
 
 int* findMissing(int arr[], int n, int &resArrSize){
-
-    int elementCount = 0;
-    int i = 0;
-    int j = 0;
-
-    while (i <= n){
+   int countValues[n + 1];
+    resArrSize = n+1;
+    for (int i = 0; i < n; i++) {
+        if (countValues[arr[i]] == 0) resArrSize--;
+        countValues[arr[i]]++;
+    }
     
-        if (arr[j] == i){
-            j = 0;
-            i++;
+    int *outputArray = new int[resArrSize];
+    for (int i = 0, j = 0; i < n + 1; i++) {
+        if (countValues[i] == 0) {
+            outputArray[j++] = i;
         }
-        else if (arr[j] != i && j != resArrSize - 1){
-            j++;
-        }
+    }
+    return outputArray;  
 
+}
 
-        if (j == resArrSize - 1 && arr[j] != i){
-            elementCount++;
-            i++;
-            j = 0;
-            
-        }
-        else if (j == resArrSize - 1 && arr[j] == i){
-            i++;
-            j = 0;
-        }
+void  printArray(int arr[], int arrSize) {
+    cout << "[";
 
+    for (int i = 0; i < arrSize; i++) {
+        cout << "\"" << arr[i] << "\"";
+
+        if (i != arrSize - 1) {
+            cout << ", ";
+        }
     }
 
+    cout << "]"<<endl;
 }
