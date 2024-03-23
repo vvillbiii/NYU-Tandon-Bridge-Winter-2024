@@ -1,14 +1,71 @@
 #include <iostream>
 using namespace std;
 
+void resizeArray(int*& arr, int& size);
+
 void main1()
 {
+    int MAX_SIZE = 10; 
+    int* sequence = new int[MAX_SIZE];
+    int count = 0;
     
+    cout << "Please enter a sequence of positive integers, each in a separate line."<<endl;
+    cout << "End you input by typing -1."<<endl;
+    int num; 
+    while(num != -1){
+        cin>> num;
+
+        sequence[count++] = num;
+
+        if(count == MAX_SIZE){
+            resizeArray(sequence, MAX_SIZE);
+        }
+        
+    }
+
+    int search;
+    cout << "Please enter a number you want to search."<<endl;
+    cin >> search;
+
+    int lines[MAX_SIZE];
+    int lineCount = 0;
+    for (int i = 0; i < count; i++) {
+        if (sequence[i] == search) {
+            lines[lineCount++] = i;
+        }
+    }
+
+    if(lineCount > 0){
+        cout << search << " shows in line ";
+        for(int i = 0; i < lineCount; i++){
+            cout<< lines[i];
+
+            if(i == lineCount - 1){
+                cout<<".";
+            }else {
+                cout<< ", ";
+            }
+        }
+        cout<<endl;
+    } else {
+        cout << search << " is not in sequence." <<endl;
+    }
+
 }
 
 void main2()
 {
  
+}
+
+void resizeArray(int *&input, int &size) {
+    size = 2 * size;
+    int *outputArray = new int[size];
+    for (int i = 0; i < size / 2; i++) {
+        outputArray[i] = input[i];
+    }
+    delete [] input;
+    input = outputArray;
 }
 
 int main()
@@ -20,3 +77,4 @@ int main()
     main2();
     return 0;
 }
+
