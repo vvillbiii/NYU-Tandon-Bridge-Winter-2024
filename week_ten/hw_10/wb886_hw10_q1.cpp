@@ -1,7 +1,9 @@
 #include <iostream>
 using namespace std;
 
+// the below are function protoypes. 
 string* createWordsArray(string sentence, int& outWordsArrSize);
+// add const to an arg inside a function means the value is read only
 void printWordsArray(const string arr[], int arr_size);
 
 int main()
