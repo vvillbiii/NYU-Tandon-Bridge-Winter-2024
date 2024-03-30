@@ -9,7 +9,7 @@ int main()
     int arr1[] = { 2, -1, 3, 10 };
 
     cout << "PART A: " << sumOfSquares(arr1, 4) << endl;
-    cout << "PART B: is sorted " << isSorted(arr1, 4);
+    cout << "PART B: is sorted is " << isSorted(arr1, 4)<<endl;
     return 0;
 }
 

@@ -7,13 +7,13 @@ void printRuler(int n);
 
 int main()
 {
-    cout << "printTriangle with int 4:\n";
+    cout << "printTriangle with int 4:"<<endl;
     printTriangle(4);
     cout << endl;
-    cout << "print Opposite Triangles with int 4:\n";
+    cout << "print Opposite Triangles with int 4:"<<endl;
      printOppositeTriangles(4);
     cout << endl;
-    cout << "print ruler with int 4:\n";
+    cout << "print ruler with int 4:"<<endl;
     printRuler(4);
     return 0;
 }
