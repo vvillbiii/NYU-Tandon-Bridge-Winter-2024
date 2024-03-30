@@ -6,10 +6,10 @@ bool isSorted(int arr[], int arrSize);
 
 int main()
 {
-
     int arr1[] = { 2, -1, 3, 10 };
 
-     cout << "PART A: " << sumOfSquares(arr1, 3) << endl;
+    cout << "PART A: " << sumOfSquares(arr1, 4) << endl;
+    cout << "PART B: is sorted " << isSorted(arr1, 4);
     return 0;
 }
 

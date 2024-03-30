@@ -1,14 +1,12 @@
 #include <iostream>
 using namespace std;
 
-
 void printTriangle(int n);
 void printOppositeTriangles(int n);
 void printRuler(int n);
 
 int main()
 {
-
     cout << "printTriangle with int 4:\n";
     printTriangle(4);
     cout << endl;
