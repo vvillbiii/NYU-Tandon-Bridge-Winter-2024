@@ -55,3 +55,4 @@ void getLetter(string sentence, int letterCount []){
 bool isLetter(char letter) {
     return (letter >= 'a' && letter <= 'z') || (letter >= 'A' && letter <= 'Z');
 }
+
