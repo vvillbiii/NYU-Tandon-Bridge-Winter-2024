@@ -148,6 +148,7 @@ void Ant::move(World &world) {
         timeSinceBreed++;
     }
 }
+
 void Ant::breed(World &world) {
     if (this->timeSinceBreed < ANT_BREED_TIME) return;
     
@@ -183,6 +184,7 @@ void Ant::breed(World &world) {
     Ant* newAnt = new Ant(newRow, newCol);
     world.addOrganism(newAnt, newRow, newCol);
 }
+
 void Doodlebug::move(World &world) {
     vector<int> antCells;
     vector<int> adjacentCells;
@@ -244,6 +246,7 @@ void Doodlebug::move(World &world) {
         }
     }
 }
+
 void Doodlebug::breed(World &world) {
     if (timeSinceBreed < BUG_BREED_TIME) return;
     vector<int> adjacentCells;
@@ -283,6 +286,7 @@ void Doodlebug::breed(World &world) {
     Doodlebug* newBug = new Doodlebug;
     world.addOrganism(newBug, newRow, newCol);
 }
+
 void Doodlebug::starve(World &world) {
     if (timeSinceEat >= BUG_STARVE_TIME)
         world.removeOrganism(getRow(), getCol());
@@ -298,6 +302,7 @@ void World::addOrganism(Organism *organism, int row, int col) {
     world[row][col]->setRow(row);
     world[row][col]->setCol(col);
 }
+
 void World::removeOrganism(int row, int col) {
     if (world[row][col] == nullptr) return;
     world[row][col] = nullptr;
@@ -330,13 +335,6 @@ Organism* World::getOrganism(int row, int col) {
 }
 
 World::World(int numAnts, int numBugs) {
-    //add a case if there are too many ants and bugs
-    if ((numAnts + numBugs) > (GRID_SIZE * GRID_SIZE)) {
-        cout << "World constructed with too many organisms. Exiting program." << endl;
-        exit(1);
-    }
-
-    //point everything to a null pointer.
     for (int row = 0; row < GRID_SIZE; row++) {
         for (int col = 0; col < GRID_SIZE; col++) {
             world[row][col] = nullptr;
@@ -365,6 +363,7 @@ World::World(int numAnts, int numBugs) {
         world[row][col] = new Doodlebug(row,col);
     }
 }
+
 World::World() {
     for (int row = 0; row < GRID_SIZE; row++) {
         for (int col = 0; col < GRID_SIZE; col++) {
@@ -372,6 +371,7 @@ World::World() {
         }
     }
 }
+
 World::~World() {
     for (int row = 0; row < GRID_SIZE; row++) {
         for (int col = 0; col < GRID_SIZE; col++) {
@@ -382,6 +382,7 @@ World::~World() {
         }
     }
 }
+
 void World::timeStep() {
     vector<Organism*> doodlebugs;
     vector<Organism*> ants;
@@ -404,7 +405,6 @@ void World::timeStep() {
         doodlebugs[i]->starve(*this);
     }
     
-    //move ANTS
     for(int row = 0; row < GRID_SIZE; row++) {
         for(int col = 0; col < GRID_SIZE; col++) {
             if (world[row][col] == nullptr) continue;
@@ -412,9 +412,11 @@ void World::timeStep() {
                 ants.push_back(world[row][col]);
         }
     }
+
     for (int i = 0; i < ants.size(); i++) {
         ants[i]->move(*this);
     }
+    
     for (int i = 0; i < ants.size(); i++) {
         ants[i]->breed(*this);
     }
